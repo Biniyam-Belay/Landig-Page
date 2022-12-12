@@ -1,9 +1,15 @@
 *{
+    font-family: 'Roboto', sans-serif;
     color: white;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 .container{
-    padding: 15px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     gap: 10px;
     background-color: #1F2937;
@@ -16,40 +22,10 @@
 
 }
 .container > .logo{
+    font-weight: bolder;
     font-size: 24px;
     color: #F9FAF8;
     flex: 1;
     justify-content: start;
     margin: auto;
-}
-.container-two{
-    justify-content: center;
-    display: flex;
-    padding: 15px;
-    gap: 8px;
-    background-color: #1F2937;
-}
-.container-two > .right{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 255, 255);
-    padding: 15px;
-    justify-items: center;
-    align-content: center;
-    flex: 1;
-    border: 5px solid pink;
-}
-.container-two > .right h3{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-.container-two > .left{
-    padding: 15px;
-    flex: 1;
-    height: 150px;
-    border: 5px solid pink;
-}
-.login {
-    color: #3882F6;
-    padding: 5px;
 }
