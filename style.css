@@ -19,6 +19,7 @@ a:hover{
   flex: 1;
   gap: 10px;
   background-color: #1f2937;
+  padding-bottom:130px;
 }
 .welcome > .item {
   font-size: 18px;
@@ -33,10 +34,9 @@ a:hover{
   justify-content: start;
 }
 .welcome > .content{
-  justify-content: space-between;
+  width: 100%;
   display: flex;
-  padding-top: 80px;
-  gap: 10px;
+  padding-top: 100px;
 }
 .content >.left{
   background-color: gray;
@@ -46,29 +46,143 @@ a:hover{
   flex: 1;
 }
 .content >.right{
+  display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 10px;
 }
 .welcome .button{
+  cursor: pointer;
+  padding: 7px 1em;
+  width: 120px;
   background-color: #3882F6;
-  border-radius: 15px;
+  border-radius: 8px;
   font-size: 18px;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
   border: none;
-  margin-top: 15px;
 }
 
-.right h3{
+.right h1{
   color: #F9FAF8;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 900;
 }
 .right p{
   font-size: 18px;
   color: #E5E7EB;
 }
 /**! I tried to edit the content part but can't make it align in the right side.
-/**? Next time work on flexbox other exercise and get back to coding or work using mind mapping.
+/**? Next time work on flexbox other exercise and get back to coding or work using mind mapping.**/
+.info{
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1em 13em;
+  padding-bottom: 130px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.info > h2{
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+
+}
+.infos{
+  flex-direction: row;
+  display: flex;
+  width: 70%;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.infos .i1{
+  border: 5px solid #3882F6 ;
+  border-radius: 30px;
+  height:160px;
+  flex: 1 0 0;
+  min-width: 20%;
+}
+.infos .i1 p{
+  color: #E5E7EB;
+  margin-top: 180px;
+}
+.text .t1 p{
+  text-align: center;
+  flex: 1;
+  color: #1F2937 ;
+  border-radius: 30px;
+}
+.quote {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 350px;
+  font-size: 36px;
+  background-color: #1f2937;
+  padding: 1em 5em;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: #E5E7EB;
+  }
+  .quote p{
+    font-weight: 100;
+    color: #1F2937;
+  }
+  .quote div{
+    padding-right: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F2937;
+  }
+  .signup{
+    width: 70%;
+    height: 150px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    border-radius: 10px;
+  }
+  .signup .right{
+    flex-wrap: wrap;
+    flex: 3;
+    padding: 150px;
+  }
+  .signup .left{
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  .signup .right h5 {
+    color: #ffffff;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup .left button {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    justify-content: center;
+    align-items: end;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px white solid;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3882F6;
+  }
+  footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
